@@ -1,0 +1,27 @@
+Date: 2019-12-05 13:48:00
+Backup Method: reload
+User Mode: free
+BackupGuard version: 1.2.0
+Supported archive version: 5
+Database prefix: wp_
+Site URL: http://localhost:8888/new_wordpress
+Home URL: http://localhost:8888/new_wordpress
+Uploads path: /Users/fredericlabourel/Documents/Work/Mamp_web_server/new_wordpress/wp-content/uploads
+Site installation: standard
+OS: Darwin
+Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.10 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0
+User agent: WordPress/5.3; http://localhost:8888/new_wordpress
+PHP version: 7.2.10
+SAPI: apache2handler
+MySQL version: 5.7.23
+Int size: 8
+Int lib: bcmath
+Memory limit: 128M
+Max execution time: 30
+Disk free space: 105.3GB
+Environment: Wordpress 5.3
+Backup type: files,database
+
+2019-12-05 13:48:00: Start backup
+2019-12-05 13:48:00: Reload method set to ajax
+2019-12-05 15:42:00: SGExceptionExecutionTimeError: Execution timeout error [File: /Users/fredericlabourel/Documents/Work/Mamp_web_server/new_wordpress/wp-content/plugins/backup/com/core/backup/SGBackup.php, Line: 127, URL: /new_wordpress/wp-admin/admin-ajax.php]

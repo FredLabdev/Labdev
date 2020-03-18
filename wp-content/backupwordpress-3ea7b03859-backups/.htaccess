@@ -1,0 +1,14 @@
+
+# BEGIN BackUpWordPress
+# Les directives (lignes) entre 'BEGIN BackUpWordPress' et 'END BackUpWordPress' sont
+# généré dynamiquement, et ne doivent uniquement être modifiées via les filtres WordPress.
+# Toute modification des directives entre ces marqueurs sera outrepassée.
+# �me.
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{QUERY_STRING} !key=9989c9929a06278b714bf1f802a87ec2
+RewriteRule (.*) - [F]
+</IfModule>
+
+# END BackUpWordPress
